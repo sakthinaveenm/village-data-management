@@ -1,0 +1,25 @@
+.CCarousel {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.imgHgt {
+  height: 560px !important;
+  object-fit: cover;
+}
+
+.center {
+  position: relative;
+  z-index: 10;
+  margin-top: -320px;
+}
+
+.center h1 {
+  font-weight: 550;
+  color: #ffffff;
+  font-size: 60px;
+  letter-spacing: 1px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+}
