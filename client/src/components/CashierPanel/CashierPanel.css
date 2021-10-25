@@ -1,0 +1,44 @@
+.leftpane {
+  float: left;
+  width: 500px !important;
+  margin: 10px;
+  height: 90vh;
+}
+
+.cashier-list {
+  padding: 10px;
+  margin: 10px;
+}
+
+.cashier-editbtn {
+  color: #757779 !important;
+  width: 30px;
+  height: 30px;
+  float: right;
+  position: relative;
+  z-index: 10;
+  margin-top: -45px;
+  margin-right: 60px;
+  float: right;
+}
+
+.cashier-deletebtn {
+  color: #757779 !important;
+  width: 30px;
+  height: 30px;
+  float: right;
+  position: relative;
+  z-index: 10;
+  margin-top: -45px;
+  margin-right: 20px;
+  float: right;
+}
+
+.cashier-deletebtn:hover {
+  cursor: pointer !important;
+  color: #c52424 !important;
+}
+.cashier-editbtn:hover {
+  cursor: pointer !important;
+  color: #000000 !important;
+}
