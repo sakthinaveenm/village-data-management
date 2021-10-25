@@ -4,19 +4,22 @@
   width: 100%;
 }
 
-.imgHgt {
-  height: 560px !important;
+.vidHgt {
+  max-height: 100vh;
+  overflow: auto;
   object-fit: cover;
 }
 
 .center {
   position: relative;
   z-index: 10;
-  margin-top: -320px;
+  margin-top: -490px;
+  margin-left: 15px;
+  padding: 0;
 }
 
 .center h1 {
-  font-weight: 550;
+  font-weight: 450;
   color: #ffffff;
   font-size: 60px;
   letter-spacing: 1px;

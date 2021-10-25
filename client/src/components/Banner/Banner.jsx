@@ -1,36 +1,36 @@
 import React from "react";
-import { CCarousel, CCarouselItem, CImage } from "@coreui/react";
 import "./Banner.css";
+import outro from "../../assets/intro.mp4";
 
 export default function Banner() {
   return (
-    <div>
-      <CCarousel className="CCarousel">
-        <CCarouselItem>
-          <CImage
-            className="d-block w-100 imgHgt"
-            src="https://www.teahub.io/photos/full/27-279596_awesome-early-morning-beautiful-village-wllpaper-4k-village.jpg"
-            alt="slide 1"
-          />
-        </CCarouselItem>
-        <CCarouselItem>
-          <CImage
-            className="d-block w-100 imgHgt"
-            src="https://www.keralatourism.org/images/hri/large/cattle_being_herded_58.jpg"
-            alt="slide 2"
-          />
-        </CCarouselItem>
-        <CCarouselItem>
-          <CImage
-            className="d-block w-100 imgHgt"
-            src="https://hummingbird.travel/wp-content/uploads/2019/01/Canoe.jpg"
-            alt="slide 3"
-          />
-        </CCarouselItem>
-      </CCarousel>
-      <center className="center">
-        <h1>Village Data Management System</h1>
-      </center>
+    <div className="CCarousel">
+      <video
+        className="vidHgt"
+        width="100%"
+        autoPlay={true}
+        controls={false}
+        loop={true}
+        muted
+      >
+        <source src={outro} type="video/mp4" />
+      </video>
+      {/* <ReactPlayer
+        className="imgHgt"
+        url="https://www.youtube.com/watch?v=67MWsCOITtU"
+        loop={true}
+        width="100%"
+        height="100vh"
+        muted={true}
+        controls={false}
+      /> */}
+      <div className="center">
+        <h1>
+          Village Data
+          <br />
+          Management System
+        </h1>
+      </div>
     </div>
   );
 }

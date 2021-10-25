@@ -1,9 +1,9 @@
-import Banner from "./components/Banner/Banner";
+import FamilyAccourdian from "./components/FamilyAccourdian/FamilyAccourdian";
 
 function App() {
   return (
     <div>
-      <Banner />
+      <FamilyAccourdian />
     </div>
   );
 }
